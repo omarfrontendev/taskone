@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/taskone/static/css/main.f9377b7c.css",
+    "main.js": "/taskone/static/js/main.2ecac5d2.js",
+    "static/media/team2.png": "/taskone/static/media/team2.4408fec51edc0ecedb4a.png",
+    "static/media/team1.png": "/taskone/static/media/team1.119c7b0c56d31f697528.png",
+    "static/media/why2.png": "/taskone/static/media/why2.8b5d3a31370bef5ffb53.png",
+    "static/media/new2.png": "/taskone/static/media/new2.fe98818e3e6e6db92466.png",
+    "static/media/new1.png": "/taskone/static/media/new1.c7fe4fbb82a0e805f750.png",
+    "static/media/why3.png": "/taskone/static/media/why3.e730c1632b35aebc5a2f.png",
+    "static/media/new3.png": "/taskone/static/media/new3.91ffe69b931294bd750b.png",
+    "static/media/client3.png": "/taskone/static/media/client3.f148f01f0b43781dc9e6.png",
+    "static/media/why1.png": "/taskone/static/media/why1.34b9b8d468f207fe446e.png",
+    "static/media/client1.png": "/taskone/static/media/client1.1d2cf6d4e4d109560f51.png",
+    "static/media/service5.png": "/taskone/static/media/service5.c84d1f26efcd82ce3463.png",
+    "static/media/why4.png": "/taskone/static/media/why4.f0370836d4f385c7f90e.png",
+    "static/media/service1.png": "/taskone/static/media/service1.7189bfb2474431750d7e.png",
+    "static/media/service3.png": "/taskone/static/media/service3.dafdf09d1765e085ad34.png",
+    "static/media/service4.png": "/taskone/static/media/service4.e349eeb2cfda1719d7af.png",
+    "static/media/service2.png": "/taskone/static/media/service2.d4418ee216576ef01d13.png",
+    "static/media/client2.png": "/taskone/static/media/client2.b9ebabb98c1574b6ab43.png",
+    "static/media/slick.svg": "/taskone/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/taskone/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/taskone/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/taskone/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/taskone/index.html",
+    "main.f9377b7c.css.map": "/taskone/static/css/main.f9377b7c.css.map",
+    "main.2ecac5d2.js.map": "/taskone/static/js/main.2ecac5d2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f9377b7c.css",
+    "static/js/main.2ecac5d2.js"
+  ]
+}
