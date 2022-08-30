@@ -1,0 +1,18 @@
+.clients__section {
+  background-color: var(--main__white);
+  padding: 150px 0;
+  overflow: hidden;
+
+  .client__slider {
+    margin: 63px -35px 0;
+    .client__carousel {
+
+      .single__client {
+        padding: 0 35px;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

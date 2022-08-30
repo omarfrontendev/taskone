@@ -1,0 +1,45 @@
+.why__container {
+  margin-top: 70px !important;
+  .why__Content {
+    margin-top: 45px;
+    gap: 40px;
+    .col__content {
+      gap: 40px;
+      flex: 1;
+      > div {
+        flex: 1;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media(max-width: 1399px) {
+  .why__container {
+    .why__Content {
+      margin-top: 30px;
+      gap: 20px;
+      .col__content {
+        gap: 20px;
+        flex: auto;
+        >div {
+          flex: auto;
+        }
+        >div {
+          border-radius: 20px;
+          overflow: hidden;
+        }
+      }
+    }
+  }
+}
+@media(max-width: 575px) {
+  .why__container {
+    .why__Content {
+      flex-direction: column;
+    }
+  } 
+}

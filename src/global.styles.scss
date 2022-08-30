@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  list-style: none;
+  background-color: transparent;
+  border: none;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+a {
+  all: unset;
+}
+a:hover {
+  all: unset;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0;
+}
+
+
+// global variables
+
+:root {
+  // color :=
+  --main__black: #000000;
+  --main__white: #FFFFFF;
+  --main__gray: #E1E1E1;
+  --main__light__blue: #019FFE;
+
+
+  // font-size: =
+  --ft__12: 12px;
+  --ft__20: 20px;
+  --ft__25: 25px;
+  --ft__26: 26px;
+  --ft__28: 28px;
+  --ft__30: 30px;
+  --ft__54: 54px;
+  --ft__70: 70px;
+
+  // font-weigth: =
+  --ft__w__regular: 400;
+  --ft__w__medium: 500;
+  --ft__w__semibold: 600;
+  --ft__w__bold: 700;
+}
+
+@media(max-width: 1700px) {
+  :root {
+      // font-size: =
+    // --ft__12: 12px;
+    --ft__20: 18px;
+    --ft__25: 23px;
+    --ft__26: 24px;
+    --ft__28: 26px;
+    --ft__30: 28px;
+    --ft__54: 48px;
+    --ft__70: 60px;
+  }
+}
+@media(max-width: 1399px) {
+  :root {
+      // font-size: =
+    // --ft__12: 12px;
+    --ft__20: 14px;
+    --ft__25: 18px;
+    --ft__26: 20px;
+    --ft__28: 22px;
+    --ft__30: 24px;
+    --ft__54: 38px;
+    --ft__70: 50px;
+  }
+}
+@media(max-width: 767px) {
+  :root {
+      // font-size: =
+    // --ft__12: 12px;
+    --ft__20: 18px;
+    --ft__25: 20px;
+    --ft__26: 24px;
+    --ft__28: 26px;
+    --ft__30: 28px;
+    --ft__54: 48px;
+    --ft__70: 40px;
+  }
+}
+@media(max-width: 757px) {
+  :root {
+    // font-size: =
+    --ft__54: 30px;
+    --ft__70: 34px;
+  }
+}
+@media(max-width: 575px) {
+  :root {
+    --ft__54: 24px;
+    --ft__28: 20px;
+  }
+}
+
+body {
+  background-color: var(--main__black);
+  color: var(--main__white);
+  // font-family: Stolzl;
+}
+
+// Global classes:=
+
+.section__space {
+  margin: 150px 0;
+}
+@media(min-width: 1400px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+@media(min-width: 1700px) {
+  .container {
+    max-width: 1440px;
+  }
+}
+[dir='rtl'] .slick-prev,
+[dir='rtl'] .slick-next {
+  display: none !important;
+}

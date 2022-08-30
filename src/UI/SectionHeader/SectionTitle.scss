@@ -1,0 +1,21 @@
+.section__title {
+  font-size: var(--ft__54);
+  font-weight: var(--ft__w__bold);
+  margin-bottom: 18px;
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: -20px;
+    right: 0;
+    width: 90px;
+    height: 7px;
+    background-color: var(--main__light__blue);
+  }
+}
+.section__subtitle {
+  color: var(--main__gray);
+  font-size: var(--ft__28);
+  line-height: 38px;
+  font-weight: 300;
+}
