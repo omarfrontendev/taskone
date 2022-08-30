@@ -1,11 +1,12 @@
 import React from 'react'
+import overlay from '../../images/DPpkhkoWsAAp5HZ 1.png'
 import './Hero.scss'
 
 const Hero = () => {
   return (
     <div className='hero__container'>
       <div className='overlay'>
-        <img src='./assets/DPpkhkoWsAAp5HZ 1.png' alt='overlay' />
+        <img src={overlay} alt='overlay' />
       </div>
       <div className="container">
         <div className="hero__content d-flex flex-column align-items-center justify-content-center">
